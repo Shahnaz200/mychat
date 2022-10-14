@@ -1,17 +1,58 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom/client"
+import App from "./App"
+import "./index.css"
+import { BrowserRouter } from "react-router-dom"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <center>
+      <App />
+    </center>
+    </BrowserRouter>
   </React.StrictMode>
-);
+)
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+  // const Chatapp =() =>{
+    
+  //   return (
+  //    <Fragment>
+  
+  //       <section className='img'> <Image/></section>
+  //       <section className='name'> <Profile/></section>
+  //       <section className='name'> <Contact/></section>
+  //    </Fragment>
+  //   )
+  // }
+  // const Image =() =>(
+  //   <>
+  //   <div className='img-item'>
+  //   <img src ="https://cdn.pixabay.com/photo/2013/07/13/12/07/avatar-159236__340.png" alt ="" />
+  // )
+  // </div>
+  // </>
+  // )
+  //  const Profile =() =>{
+  //   return(
+  //   <div className='name-item'>  name</div>
+  
+  
+  //  )
+  //  }
+  
+  // const Contact =()=>{
+  //   return  <ul>
+  //     <li>Maryam</li>
+  //     <li>Mom</li>
+  //     <li>Dad</li>
+  
+  //   </ul>
+  // }
+  
+  
+  // 
+  //   <Chatapp/>
+  // )
